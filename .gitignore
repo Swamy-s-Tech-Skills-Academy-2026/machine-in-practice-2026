@@ -3,6 +3,58 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/main/VisualStudio.gitignore
 
+# ============================
+# Python & Data Science Specific
+# ============================
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual Environments
+venv/
+env/
+ENV/
+.venv
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints
+
+# Data files (exclude large datasets)
+*.csv
+*.xlsx
+*.xls
+*.json
+*.pkl
+*.pickle
+*.h5
+*.hdf5
+!sample*.csv
+!example*.csv
+
+# Model files
+*.model
+*.weights
+*.pt
+*.pth
+*.ckpt
+
+# Large datasets (keep folder structure)
+10-datasets/raw/*
+10-datasets/processed/*
+10-datasets/external/*
+!10-datasets/raw/.gitkeep
+!10-datasets/processed/.gitkeep
+!10-datasets/external/.gitkeep
+
+# ============================
+# Visual Studio
+# ============================
+
 # User-specific files
 *.rsuser
 *.suo
