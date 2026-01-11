@@ -58,7 +58,6 @@ Brief summary of what was changed and why.
 
 - [ ] Content is original and transformative (zero-copy policy)
 - [ ] Examples and diagrams are original
-- [ ] API endpoints are documented (if applicable)
 - [ ] Cross-references are updated
 - [ ] Documentation is updated (if structure changed)
 
