@@ -41,9 +41,10 @@ If applicable, add screenshots to help explain your problem.
 
 ## Additional Context
 
-- **Component**: [Frontend / Backend / Database / Documentation / Other]
+- **Module**: [Python Foundations / NumPy & Pandas / Visualization / Statistics / ML / NLP / Documentation / Other]
+- **Content Type**: [Jupyter Notebook / Python Script / Documentation / Dataset / Other]
 - **Severity**: [Low / Medium / High]
-- **Impact**: How does this affect the system functionality?
+- **Impact**: How does this affect learning or repository usability?
 
 ## Proposed Fix (Optional)
 
@@ -51,5 +52,5 @@ If you have a suggestion for how to fix this, please describe it here.
 
 ---
 
-**Note**: This repository is for the GenAI Email & Report Drafting System. Bug reports help improve the system quality for everyone.
+**Note**: This repository is for Machine Learning in Practice 2026. Bug reports help improve educational content quality for all learners.
 

@@ -56,9 +56,10 @@ Why is this improvement valuable?
 
 ## Additional Context
 
-- **Content Type**: [Frontend / Backend / Database / Documentation / API / Other]
-- **Component**: [React Components / Flask Routes / Database Schema / Documentation / Other]
-- **Related Files**: Any related files or components
+- **Learning Level**: [Beginner / Intermediate / Advanced]
+- **Module**: (e.g., 01-python-foundations, 08-machine-learning)
+- **Related Concepts**: Any related topics or prerequisites
+- **Related Files**: Any related notebooks or documentation
 
 ## Examples (Optional)
 
@@ -66,5 +67,5 @@ If you have examples, diagrams, or code snippets that would help, please include
 
 ---
 
-**Note**: This repository is for the GenAI Email & Report Drafting System. Your suggestions help improve the system for everyone.
+**Note**: This repository is for Machine Learning in Practice 2026. Your suggestions help improve educational content for all learners.
 

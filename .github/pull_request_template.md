@@ -48,8 +48,9 @@ Brief summary of what was changed and why.
 - [ ] My changes follow the repository's [content rules](../.cursor/rules/01_educational-content-rules.mdc)
 - [ ] I have checked for broken file references
 - [ ] I have verified YAML frontmatter (if applicable)
-- [ ] Code follows project standards (PEP 8 for Python, ESLint for TypeScript)
-- [ ] I have verified file naming conventions
+- [ ] Code follows project standards (PEP 8 for Python)
+- [ ] I have verified file naming conventions (see .cursor/rules/07_file-naming-conventions.mdc)
+- [ ] All notebooks execute without errors (if applicable)
 - [ ] I have run markdownlint (if applicable)
 - [ ] I have tested my changes locally
 

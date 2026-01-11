@@ -387,16 +387,16 @@ When designing ML content, include learning progression and assessment:
 ### **Educational content is effective when:**
 
 - ✅ It acknowledges constraints explicitly
-- ✅ It asks clarifying questions about boundaries
-- ✅ It maintains N-Tier architecture separation
-- ✅ It focuses on code changes, not configuration changes
-- ✅ It provides detailed progress updates
-- ✅ It never commits API keys or secrets
+- ✅ It asks clarifying questions about learning objectives and audience
+- ✅ It maintains progressive learning structure
+- ✅ It focuses on educational value and clear explanations
+- ✅ It provides detailed progress updates on content creation
+- ✅ It ensures all code examples are executable and well-explained
 
 ### **Agent needs restart when:**
 
-- ❌ It immediately modifies forbidden files
-- ❌ It commits API keys or secrets
+- ❌ It creates non-executable notebooks or code examples
+- ❌ It includes copy-paste content without educational customization
 - ❌ It ignores explicit educational constraints
 - ❌ It skips prerequisite concepts or explanations
 - ❌ It creates non-executable code examples

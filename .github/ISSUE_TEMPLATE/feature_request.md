@@ -33,51 +33,57 @@ Why is this feature valuable?
 
 ## Detailed Description
 
-### If it's a frontend feature
+### If it's a new notebook or tutorial
 
-- What UI components are needed?
-- What user interactions are required?
-- How does it integrate with the backend API?
+- What learning objectives should it cover?
+- What prerequisites are needed?
+- What examples or visualizations would help?
+- Where in the learning path does it fit?
 
-### If it's a backend feature
+### If it's a new module or topic
 
-- What API endpoints are needed?
-- What business logic is required?
-- How does it integrate with Gemini API or database?
+- What concepts should be covered?
+- What prior knowledge is required?
+- How does it connect to existing content?
+- What real-world applications does it demonstrate?
 
-### If it's a database enhancement
+### If it's a dataset or project
 
-- What schema changes are needed?
-- What migrations are required?
-- How does it affect existing data?
+- What learning objectives does it support?
+- What size and format is the data?
+- What analysis or modeling techniques would it demonstrate?
+- Is it publicly available and properly licensed?
 
-### If it's an AI/ML improvement
+### If it's a tool or utility
 
-- What prompt engineering changes are needed?
-- How does it improve content generation?
-- What Gemini API features are used?
+- What problem does it solve for learners?
+- How does it improve the learning experience?
+- What dependencies are needed?
 
 ## Proposed Location
 
 Where should this feature be implemented?
 
-- `frontend/src/pages/` (for UI features)
-- `backend/routes/` (for API endpoints)
-- `backend/services/` (for business logic)
-- `database/` (for schema changes)
-- Specific file or folder
+- `src/[module-name]/` (for new notebooks or content)
+- `src/11-assignments/` (for practice exercises)
+- `src/12-projects/` (for new projects)
+- `notes/` (for reference materials)
+- `tools/` (for utilities or scripts)
+- `docs/` (for documentation)
+- Specific module or folder
 
 ## Related Content
 
-- Does this relate to existing features?
-- What dependencies are needed?
-- What does this enable?
+- Does this relate to existing content?
+- What Python libraries or tools are needed?
+- What concepts does this build upon?
+- What does this enable learners to do?
 
 ## Additional Context
 
-Any other information, examples, or references that would help.
+Any other information, examples, datasets, or references that would help.
 
 ---
 
-**Note**: This repository is for the GenAI Email & Report Drafting System. Feature requests help improve the system for all users.
+**Note**: This repository is for Machine Learning in Practice 2026. Feature requests help improve educational content for all learners.
 
