@@ -69,21 +69,10 @@ When contributing to this repository:
 - Run `pip list --outdated` to check for updates
 - Report outdated packages with security vulnerabilities
 
-When contributing to this repository:
-
-- **API Keys**: Never commit Google Gemini API keys or JWT secret keys
-- **Passwords**: Use secure password hashing (bcrypt/werkzeug)
-- **Authentication**: Follow JWT best practices
-- **Input Validation**: Always validate and sanitize user inputs
-- **Dependencies**: Keep dependencies up to date and review for vulnerabilities
-- **Secrets**: Use environment variables for sensitive configuration
-- **Database**: Use parameterized queries (ORM handles this)
-- **CORS**: Configure CORS properly for production
-
 ## Acknowledgments
 
 We appreciate responsible disclosure of security vulnerabilities. Contributors who report valid security issues will be acknowledged (with permission) in our security acknowledgments.
 
 ---
 
-**Note**: While this is an academic project, security is important. The system handles user authentication, stores generated documents, and integrates with external APIs. All security best practices should be followed.
+**Note**: While this is an educational repository, security is important. Always follow security best practices when working with data and code.

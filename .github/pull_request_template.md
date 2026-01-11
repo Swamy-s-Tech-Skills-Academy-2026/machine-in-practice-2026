@@ -19,12 +19,14 @@ A clear and concise description of what this PR does.
 
 ## Content Type
 
-- [ ] Frontend (React with TypeScript)
-- [ ] Backend (Flask API)
-- [ ] Database (PostgreSQL schema/migrations)
+- [ ] Python code (`src/`)
+- [ ] Jupyter notebooks (`src/`)
+- [ ] Educational content (notebooks, tutorials)
 - [ ] Documentation (`docs/`, `README.md`)
 - [ ] Tooling/scripts (`tools/`)
 - [ ] Configuration (`.github/`, `.cursor/`, etc.)
+- [ ] Assignments (`src/11-assignments/`)
+- [ ] Projects (`src/12-projects/`)
 
 ## Changes Made
 
@@ -61,10 +63,11 @@ Brief summary of what was changed and why.
 
 ### Code/Technical (if applicable)
 
-- [ ] Code follows repository standards
-- [ ] Code is tested (if applicable)
+- [ ] Python code follows PEP 8 standards
+- [ ] Jupyter notebooks execute without errors
+- [ ] Code is well-commented for learners
 - [ ] No secrets or sensitive data included
-- [ ] Dependencies are documented
+- [ ] Dependencies are documented in requirements.txt
 
 ## Related Issues
 
@@ -81,5 +84,5 @@ Any additional information, context, or notes for reviewers.
 
 ---
 
-**Note**: This repository is for the GenAI Email & Report Drafting System. Your contributions help improve the system for everyone.
+**Note**: This repository is for Machine Learning in Practice 2026 educational content. Your contributions help learners build practical ML skills.
 

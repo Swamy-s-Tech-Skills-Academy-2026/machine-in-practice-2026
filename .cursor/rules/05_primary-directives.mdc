@@ -2,37 +2,35 @@
 
 ## Project Focus
 
-This is an **N-Tier web application** that:
-- Generates professional emails using Google Gemini AI
-- Generates professional reports using Google Gemini AI
-- Uses React.js with TypeScript for frontend
-- Uses Flask REST API for backend
-- Uses PostgreSQL for data persistence
-- Implements JWT authentication with role-based access control
+This is a **Machine Learning Educational Repository** that:
+- Provides structured learning path from Python basics to advanced ML/NLP
+- Includes hands-on Jupyter notebooks for each topic
+- Covers complete ML workflow: data cleaning, EDA, feature engineering, modeling
+- Offers real-world projects and assignments
+- Serves as a comprehensive resource for data science learners
 
 ## Current State
 
-- ✅ Implementation Complete (Phase 08)
-- ✅ N-Tier architecture fully implemented
-- ✅ Backend: Flask REST API with JWT authentication
-- ✅ Frontend: React.js with TypeScript and Redux
-- ✅ Database: PostgreSQL with SQLAlchemy ORM
-- ✅ AI Integration: Google Gemini API with prompt engineering
-- ✅ Testing: Comprehensive test suite (127+ tests)
-- ✅ Architecture documentation complete
-- ✅ Requirements specification complete
+- ✅ Repository structure established
+- ✅ Learning modules organized (12 main modules)
+- ✅ Documentation framework in place
+- ✅ Quality assurance scripts implemented
+- ✅ ZERO copy policy enforced
+- 📝 Content development in progress
 
 ## Documentation Accuracy
 
-- Documentation must accurately reflect planned implementation
-- Architecture diagrams must match actual system design
-- API endpoints must be documented correctly
-- No misleading technology descriptions
+- Documentation must accurately reflect the educational content
+- Learning paths must be clear and progressive
+- Code examples must be educational and well-explained
+- No misleading descriptions of ML concepts or techniques
+- All examples should be practical and relevant
 
-## Code Maintenance
+## Content Maintenance
 
-- Maintain N-Tier architecture separation
-- Keep frontend and backend decoupled
-- Use TypeScript for type safety
-- Follow RESTful API design principles
-- Ensure secure API key handling
+- Maintain educational focus and clarity
+- Ensure progressive difficulty (beginner → intermediate → advanced)
+- Keep code examples well-commented for learners
+- Connect concepts to real-world applications
+- Update documentation as content is added
+- Follow ZERO copy policy strictly
