@@ -1,7 +1,7 @@
-# Project Rules for GenAI Email & Report Drafting System
+# Project Rules for Machine Learning in Practice 2026
 
-**Version**: 1.0  
-**Last Updated**: January 8, 2026  
+**Version**: 2.0  
+**Last Updated**: January 11, 2026  
 **Priority**: MANDATORY
 
 ---
@@ -9,56 +9,59 @@
 ## 📋 Core Principles
 
 ### Zero-Copy Policy
-- All code must be original and properly customized for this project
+- All code must be original and properly customized for this educational repository
 - No copy-paste artifacts from other projects
 - Ensure all references and naming match this project
-- Content must be transformative, not reformative
-- Even quotes and key principles must use original phrasing
+- Content must be educational and transformative
+- Examples must be clear and pedagogically sound
 
 ### Code Quality
-- **Python (Backend)**: Follow PEP 8 style guide, use type hints, include comprehensive docstrings
-- **TypeScript/React (Frontend)**: Follow ESLint configuration, use strict type checking, maintain component structure
-- Maintain modular N-Tier architecture
-- Clear separation of concerns (Presentation, Application, Data, AI Service layers)
+- **Python**: Follow PEP 8 style guide, use clear variable names, include comprehensive comments
+- **Jupyter Notebooks**: Use markdown cells for explanations, clear code comments, well-structured cells
+- **Educational Content**: Clear explanations, progressive difficulty, real-world examples
+- **Documentation**: Keep docs current, provide learning context, explain concepts thoroughly
 
-### AI Integration Standards
-- Secure API key handling (environment variables only)
-- Proper error handling for Gemini API calls
-- Structured prompt engineering for consistent output
-- Input validation before API calls
+### Content Creation Standards
+- Start with fundamentals, build to advanced topics
+- Include practical examples for each concept
+- Provide exercises with varying difficulty
+- Explain the "why" behind techniques
+- Connect concepts to real-world applications
+- Include visualizations where helpful
 
 ---
 
 ## 🔧 Development Guidelines
 
-### When Adding Features
-1. Maintain N-Tier architecture separation (Frontend, Backend, Database, AI Service)
-2. Preserve type safety in TypeScript code
-3. Add comprehensive audit logging for document generation
-4. Write unit tests for both frontend and backend
+### When Adding Content
+1. Ensure content fits the progressive learning path
+2. Add explanatory markdown cells in notebooks
+3. Include both theory and practical implementation
+4. Create corresponding exercises/assignments
 5. Update documentation in docs/ directory
+6. Add references to relevant datasets
 
 ### File Naming
-- **Python**: Use lowercase with underscores: gemini_service.py, prompt_engine.py
-- **TypeScript/React**: Use PascalCase for components: EmailGenerator.tsx, Login.tsx
-- **API Routes**: Use descriptive names: documents.py, auth.py
-- Keep names descriptive and clear
-- Follow existing patterns
+- **Python Scripts**: Use lowercase with underscores: data_preprocessing.py, model_training.py
+- **Notebooks**: Use descriptive names: 01_python_basics.ipynb, linear_regression_tutorial.ipynb
+- **Datasets**: Use clear, descriptive names: housing_prices.csv, customer_churn.csv
+- Keep names descriptive and educational
+- Follow existing module naming patterns
 
 ### Error Handling
-- Use proper exception handling
-- Log errors with context
-- Provide user-friendly error messages
-- Handle API failures gracefully
-- Validate all user inputs
+- Provide clear error messages for learners
+- Include troubleshooting guidance in notebooks
+- Document common pitfalls
+- Show how to debug ML models
+- Validate data inputs
 
 ---
 
 ## 📝 Documentation Standards
 
-- Keep README.md accurate and up-to-date
-- Document all configuration options
-- Maintain usage guides in docs/ directory
-- Update technical documentation when code changes
-- Include API endpoint documentation
-- Document prompt engineering strategies
+- Keep README.md accurate and welcoming
+- Document all prerequisites and setup steps
+- Maintain clear learning path documentation
+- Update technical documentation when structure changes
+- Include expected outputs and explanations
+- Document dataset sources and licenses

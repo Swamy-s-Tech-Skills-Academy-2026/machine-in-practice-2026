@@ -2,7 +2,7 @@
 
 ## Supported Versions
 
-This repository contains the GenAI Email & Report Drafting System. Security is taken seriously, and updates are applied as needed.
+This repository contains Machine Learning in Practice 2026, an educational repository for learning machine learning and data science. Security is taken seriously, and updates are applied as needed.
 
 | Version | Supported          |
 | ------- | ------------------ |
@@ -32,21 +32,42 @@ If you discover a security vulnerability in this repository, please report it re
 
 Please report:
 
-- Security vulnerabilities in authentication (JWT implementation)
-- API key exposure or mishandling
-- SQL injection vulnerabilities
-- XSS vulnerabilities in frontend
-- Security issues in Google Gemini API integration
-- Vulnerabilities in any scripts or automation tools
+- Security vulnerabilities in Python code or notebooks
+- Malicious code in contributed content
+- Exposure of sensitive data in datasets
+- Vulnerabilities in scripts or automation tools
+- Security issues in any dependencies
 - Any other security concerns related to this repository
 
 ### What NOT to Report
 
-- General questions about system design (use Discussions or Issues)
-- Feature requests (use Issues)
+- General questions about machine learning (use Discussions or Issues)
+- Feature requests or content suggestions (use Issues)
 - Documentation improvements (use Issues or Pull Requests)
 
 ## Security Best Practices
+
+When contributing to this repository:
+
+- **Never include sensitive data** in datasets or examples
+- **Use dummy data** for demonstrations
+- **Check dependencies** for known vulnerabilities regularly
+- **Review notebooks** before running from unknown sources
+- **Be cautious** with pickle files and untrusted data sources
+- **Document data sources** and verify their legitimacy
+
+## Data Privacy
+
+- This is an educational repository - do not include real personal data
+- Use publicly available datasets with proper attribution
+- Anonymize any data that might contain sensitive information
+- Follow ethical guidelines for data usage
+
+## Dependency Security
+
+- We regularly update dependencies in `requirements.txt`
+- Run `pip list --outdated` to check for updates
+- Report outdated packages with security vulnerabilities
 
 When contributing to this repository:
 

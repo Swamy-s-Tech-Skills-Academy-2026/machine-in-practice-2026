@@ -1,8 +1,10 @@
 @{
-  RepoName = 'genai-email-report-drafting'
+  RepoName = 'machine-in-practice-2026'
 
   ExpectedFolders = @(
     'docs'
+    'notes'
+    'src'
     'tools\psscripts'
     '.github'
     '.cursor\rules'

@@ -12,12 +12,13 @@ A clear description of the feature you'd like to see added.
 
 ## Feature Type
 
-- [ ] Frontend feature (React with TypeScript)
-- [ ] Backend feature (Flask API)
-- [ ] Database enhancement
-- [ ] AI/ML improvement (Gemini integration, prompt engineering)
-- [ ] Authentication/Authorization enhancement
-- [ ] New tool or script
+- [ ] New learning module or topic
+- [ ] Additional Jupyter notebook or tutorial
+- [ ] New dataset or example
+- [ ] Practice exercises or assignments
+- [ ] New project
+- [ ] Improved explanations or visualizations
+- [ ] Tool or utility script
 - [ ] Documentation improvement
 - [ ] Other (please describe)
 
@@ -25,9 +26,10 @@ A clear description of the feature you'd like to see added.
 
 Why is this feature valuable?
 
-- What problem does it solve?
-- How does it improve the system?
+- What learning gap does it fill?
+- How does it improve the educational experience?
 - Who would benefit from this?
+- What ML/data science topics does it cover?
 
 ## Detailed Description
 

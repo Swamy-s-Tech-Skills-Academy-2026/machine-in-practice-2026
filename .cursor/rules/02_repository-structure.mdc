@@ -1,61 +1,52 @@
 # Repository Structure
 
-**Project**: GenAI Email & Report Drafting System
+**Project**: Machine Learning in Practice 2026
 
 ## Directory Structure
 
 ```
-genai-email-report-drafting/
-├── frontend/                  # React.js with TypeScript application
-│   ├── src/
-│   │   ├── api/              # API client functions
-│   │   ├── components/        # Reusable React components
-│   │   ├── pages/            # Page components
-│   │   │   ├── Login.tsx
-│   │   │   ├── Register.tsx
-│   │   │   ├── EmailGenerator.tsx
-│   │   │   ├── ReportGenerator.tsx
-│   │   │   ├── History.tsx
-│   │   │   └── AdminDashboard.tsx
-│   │   ├── App.tsx           # Main application component
-│   │   └── main.tsx          # Application entry point
-│   └── package.json
-├── backend/                   # Flask REST API
-│   ├── app.py                # Flask application entry point
-│   ├── config.py             # Configuration settings
-│   ├── db.py                 # Database initialization
-│   ├── routes/               # API route handlers
-│   │   ├── auth.py           # Authentication endpoints
-│   │   ├── documents.py      # Document generation endpoints
-│   │   ├── history.py        # History retrieval endpoints
-│   │   └── admin.py          # Admin endpoints
-│   ├── services/             # Business logic
-│   │   ├── gemini_service.py  # Google Gemini API integration
-│   │   ├── prompt_engine.py   # Prompt construction logic
-│   │   └── document_service.py # Document processing
-│   ├── models/               # Database models
-│   │   ├── user.py
-│   │   ├── document.py
-│   │   └── audit_log.py
-│   └── requirements.txt      # Python dependencies
-├── database/                  # Database schema and migrations
-│   └── schema.sql
-├── docs/                      # Project documentation
-│   ├── 01_abstract.md
-│   ├── 02_requirements.md
-│   ├── 03_usage.md
-│   ├── 04_technical.md
-│   ├── 05_architecture_plan.md
-│   ├── 06_comparison.md
-│   └── masterplan.md
-└── README.md
+machine-in-practice-2026/
+│
+├── src/                           # All course materials
+│   ├── 01-python-foundations/     # Python basics for data science
+│   ├── 02-numpy-and-pandas/       # Data manipulation libraries
+│   ├── 03-data-visualization/     # matplotlib, seaborn, plotly
+│   ├── 04-statistics-for-data-science/  # Statistical foundations
+│   ├── 05-data-cleaning/          # Data preprocessing techniques
+│   ├── 06-exploratory-data-analysis/   # EDA methods and case studies
+│   ├── 07-feature-engineering/    # Feature creation and selection
+│   ├── 08-machine-learning/       # Supervised/unsupervised learning
+│   ├── 09-natural-language-processing/ # NLP fundamentals
+│   ├── 10-datasets/               # Data storage (raw/processed/external)
+│   ├── 11-assignments/            # Practice assignments by topic
+│   └── 12-projects/               # End-to-end ML projects
+│
+├── notes/                         # Reference materials
+│   ├── concepts.md                # Key ML concepts
+│   ├── formulas.md                # Mathematical formulas
+│   └── interview-notes.md         # Interview preparation
+│
+├── docs/                          # Documentation
+│   ├── 01_repository-structure.md # Complete structure details
+│   └── images/                    # Documentation images
+│
+├── tools/                         # Utility scripts
+│   └── psscripts/                 # PowerShell automation scripts
+│
+├── requirements.txt               # Python dependencies
+└── README.md                      # Main documentation
 ```
 
-## Key Files
+## Key Files and Directories
 
-- `frontend/src/App.tsx`: Main React application component
-- `backend/app.py`: Flask application entry point
-- `backend/config.py`: Configuration settings (database, JWT, Gemini API)
-- `backend/services/gemini_service.py`: Google Gemini API integration
-- `backend/services/prompt_engine.py`: Prompt construction logic
-- `database/schema.sql`: Database schema definition
+- `src/`: All educational content organized by topic
+- `notes/concepts.md`: Quick reference for ML concepts
+- `notes/formulas.md`: Mathematical formulas with LaTeX
+- `notes/interview-notes.md`: Interview preparation guide
+- `docs/01_repository-structure.md`: Complete structure breakdown
+- `requirements.txt`: Python dependencies for all modules
+- `README.md`: Main repository documentation
+
+## Learning Modules
+
+See [docs/01_repository-structure.md](../../docs/01_repository-structure.md) for detailed breakdown of each module.

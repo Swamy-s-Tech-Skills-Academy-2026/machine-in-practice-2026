@@ -1,33 +1,39 @@
 # File Naming Conventions
 
-## Python Files (Backend)
+## Python Files
 
-- Use lowercase with underscores: `gemini_service.py`, `prompt_engine.py`
-- Keep names descriptive: `document_service.py`, `auth_routes.py`
+- Use lowercase with underscores: `data_preprocessing.py`, `model_training.py`
+- Keep names descriptive: `linear_regression.py`, `feature_engineering.py`
 - Follow existing patterns in codebase
 
-## TypeScript/React Files (Frontend)
+## Jupyter Notebooks
 
-- **Components**: Use PascalCase: `EmailGenerator.tsx`, `Login.tsx`, `AdminDashboard.tsx`
-- **API Client**: Use camelCase: `apiClient.ts`
-- **Types/Interfaces**: Use PascalCase: `User.ts`, `Document.ts`
-- Keep names descriptive and clear
+- **Tutorial Notebooks**: Use numbered prefix: `01_python_basics.ipynb`, `02_numpy_arrays.ipynb`
+- **Project Notebooks**: Use descriptive names: `linear_regression_tutorial.ipynb`, `eda_housing_data.ipynb`
+- **Assignment Notebooks**: Prefix with assignment: `assignment_01_python.ipynb`
+- Keep names descriptive and educational
+
+## Dataset Files
+
+- Use descriptive names: `housing_prices.csv`, `customer_churn.csv`
+- Indicate processed data: `housing_prices_cleaned.csv`
+- Use clear prefixes: `raw_`, `processed_`, `final_`
 
 ## Documentation Files
 
-- Use descriptive names with numbering: `01_abstract.md`, `02_requirements.md`
+- Use descriptive names with numbering: `01_repository-structure.md`
 - Number sequentially when order matters
-- Use hyphens for multi-word names in URLs
+- Use hyphens for multi-word names
 
 ## Configuration Files
 
-- `config.py`: Backend configuration
-- `package.json`: Frontend dependencies
-- `requirements.txt`: Backend dependencies
-- `.env`: Environment variables (not committed)
-- `schema.sql`: Database schema
+- `requirements.txt`: Python dependencies
+- `.gitignore`: Version control exclusions
+- `.python-version`: Python version specification
+- `.markdownlint.json`: Markdown linting rules
 
-## Database Files
+## Module/Package Names
 
-- `schema.sql`: Database schema definition
-- Migration files: Use timestamp prefix: `20260108_initial_schema.sql`
+- Use descriptive folder names: `01-python-foundations/`, `08-machine-learning/`
+- Include numbering for sequential learning modules
+- Use hyphens for readability

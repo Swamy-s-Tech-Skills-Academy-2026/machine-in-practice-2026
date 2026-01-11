@@ -1,8 +1,8 @@
 ---
 title: Cursor Rules Index
-version: 1.0
-last_updated: 2026-01-08
-project: GenAI Email & Report Drafting System
+version: 2.0
+last_updated: 2026-01-11
+project: Machine Learning in Practice 2026
 ---
 
 # Cursor Rules
@@ -14,25 +14,25 @@ This folder contains the Cursor rule files (`.mdc`) used to guide edits in this 
 ## 📋 Rule Files
 
 ### `01_educational-content-rules.mdc`
-Core principles and the mandatory zero-copy policy
+Core principles, zero-copy policy, and educational content standards
 
 ### `02_repository-structure.mdc`
-Repository structure expectations and key files
+Repository structure for ML learning modules and organization
 
 ### `03_quality-assurance.mdc`
-Quality checklist and testing/verification expectations
+Quality checklist and content verification expectations
 
 ### `04_markdown-standards.mdc`
 Markdown and documentation standards
 
 ### `05_primary-directives.mdc`
-Project focus and documentation accuracy rules
+Project focus and educational content accuracy rules
 
 ### `06_cross-domain-integration.mdc`
-Planned N-Tier integration and data flow (frontend/backend/database)
+Integration guidelines across different ML topics and modules
 
 ### `07_file-naming-conventions.mdc`
-File naming conventions for this repository
+File naming conventions for Python, notebooks, and datasets
 
 ---
 

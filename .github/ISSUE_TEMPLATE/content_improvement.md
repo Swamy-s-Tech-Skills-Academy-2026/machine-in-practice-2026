@@ -1,6 +1,6 @@
 ---
 name: Content Improvement
-about: Suggest improvements to existing content
+about: Suggest improvements to existing educational content
 title: '[CONTENT] '
 labels: enhancement, documentation
 assignees: ''
@@ -12,13 +12,15 @@ A clear description of the content improvement you're suggesting.
 
 ## Content Location
 
+**Module**: (e.g., 01-python-foundations, 08-machine-learning)
+
 **File(s)**:
 
-- `path/to/file.md`
+- `src/path/to/file.ipynb` or `src/path/to/file.py`
 
 **Section(s)**:
 
-- Section name or topic
+- Section name, cell number, or topic
 
 ## Current Content
 
@@ -27,6 +29,21 @@ What is the current content or explanation? (Quote or describe)
 ## Suggested Improvement
 
 What would you like to see changed or added?
+
+## Type of Improvement
+
+- [ ] Clearer explanation needed
+- [ ] Add more examples
+- [ ] Fix code errors
+- [ ] Improve visualizations
+- [ ] Add practice exercises
+- [ ] Update outdated information
+- [ ] Simplify complex concepts
+- [ ] Other (please describe)
+
+## Learning Impact
+
+How will this improvement help learners better understand the topic?
 
 ## Rationale
 
