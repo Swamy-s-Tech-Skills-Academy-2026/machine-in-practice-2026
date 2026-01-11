@@ -1,0 +1,61 @@
+# Repository Structure
+
+**Project**: GenAI Email & Report Drafting System
+
+## Directory Structure
+
+```
+genai-email-report-drafting/
+├── frontend/                  # React.js with TypeScript application
+│   ├── src/
+│   │   ├── api/              # API client functions
+│   │   ├── components/        # Reusable React components
+│   │   ├── pages/            # Page components
+│   │   │   ├── Login.tsx
+│   │   │   ├── Register.tsx
+│   │   │   ├── EmailGenerator.tsx
+│   │   │   ├── ReportGenerator.tsx
+│   │   │   ├── History.tsx
+│   │   │   └── AdminDashboard.tsx
+│   │   ├── App.tsx           # Main application component
+│   │   └── main.tsx          # Application entry point
+│   └── package.json
+├── backend/                   # Flask REST API
+│   ├── app.py                # Flask application entry point
+│   ├── config.py             # Configuration settings
+│   ├── db.py                 # Database initialization
+│   ├── routes/               # API route handlers
+│   │   ├── auth.py           # Authentication endpoints
+│   │   ├── documents.py      # Document generation endpoints
+│   │   ├── history.py        # History retrieval endpoints
+│   │   └── admin.py          # Admin endpoints
+│   ├── services/             # Business logic
+│   │   ├── gemini_service.py  # Google Gemini API integration
+│   │   ├── prompt_engine.py   # Prompt construction logic
+│   │   └── document_service.py # Document processing
+│   ├── models/               # Database models
+│   │   ├── user.py
+│   │   ├── document.py
+│   │   └── audit_log.py
+│   └── requirements.txt      # Python dependencies
+├── database/                  # Database schema and migrations
+│   └── schema.sql
+├── docs/                      # Project documentation
+│   ├── 01_abstract.md
+│   ├── 02_requirements.md
+│   ├── 03_usage.md
+│   ├── 04_technical.md
+│   ├── 05_architecture_plan.md
+│   ├── 06_comparison.md
+│   └── masterplan.md
+└── README.md
+```
+
+## Key Files
+
+- `frontend/src/App.tsx`: Main React application component
+- `backend/app.py`: Flask application entry point
+- `backend/config.py`: Configuration settings (database, JWT, Gemini API)
+- `backend/services/gemini_service.py`: Google Gemini API integration
+- `backend/services/prompt_engine.py`: Prompt construction logic
+- `database/schema.sql`: Database schema definition
