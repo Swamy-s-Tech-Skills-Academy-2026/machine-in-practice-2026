@@ -1,402 +1,390 @@
 # S.M.A.R.T. Prompt Framework for GitHub Copilot Coding Agents
 
-**GenAI Email & Report Drafting System Edition** - Framework for creating high-quality coding agent instructions aligned with prompt engineering best practices and Google Gemini integration patterns.
+**Machine Learning in Practice 2026 Edition** - Framework for creating high-quality coding agent instructions aligned with educational content creation, ML best practices, and hands-on learning experiences.
 
 ---
 
 ## 🎯 **The S.M.A.R.T. Framework**
 
-Use this framework to create highly effective coding agent instructions:
+Use this framework to create highly effective coding agent instructions for educational ML content:
 
 ```text
-S - Specific Role Definition (Senior Python Developer, Frontend Engineer, AI Integration Specialist, etc.)
-M - Mission-Critical Requirements (What must be accomplished with measurable outcomes)
-A - Audience-Aware Communication (Team expertise level, architectural maturity, domain context)
-R - Response Format Control (Code structure, architecture patterns, documentation style)
-T - Task-Oriented Constraints (Technology stack, architectural patterns, forbidden actions)
+S - Specific Role Definition (ML Educator, Data Science Instructor, Technical Writer, Python Developer, etc.)
+M - Mission-Critical Requirements (What educational outcomes must be accomplished with measurable learning objectives)
+A - Audience-Aware Communication (Learner expertise level, prerequisite knowledge, learning style)
+R - Response Format Control (Notebook structure, code organization, explanation depth, visualization quality)
+T - Task-Oriented Constraints (Technology stack, dataset requirements, pedagogical approach, forbidden shortcuts)
 ```
 
 ---
 
-## 🏛️ **GenAI System Alignment**
+## 🏛️ **ML Education Repository Alignment**
 
 When creating prompts, consider:
 
-- **Prompt Pattern**: Is this instruction-based, role-based, chain-of-thought, or evaluation?
-- **Use Case Context**: What task type (email generation, report generation, document history, authentication)?
-- **Google Gemini Integration**: Which integration pattern (Python SDK, REST API, or prompt engineering)?
-- **Template Reusability**: Can this prompt be templated for reuse across similar use cases?
+- **Content Pattern**: Is this tutorial, exercise, project, or reference material?
+- **Learning Context**: What module (Python basics, ML algorithms, NLP, etc.)?
+- **Prerequisites**: What prior knowledge is required?
+- **Template Reusability**: Can this prompt be templated for similar learning modules?
 
-## 🏗️ **Advanced Problem Statement Template**
+## 🏗️ **Advanced Educational Content Template**
 
-Use this enhanced template for coding agent tasks:
+Use this enhanced template for ML content creation tasks:
 
 ```markdown
 ## ROLE DEFINITION
 
-You are a [Specific Role] specializing in [Technology Stack] with expertise in [Domain Areas]
+You are a [Specific Role] specializing in [ML/DS Topic] with expertise in [Teaching/Technical Areas]
 
 ## MISSION
 
-[Clear, specific objective with measurable outcomes]
+[Clear educational objective with measurable learning outcomes]
 
 ## CONTEXT
 
-[Brief overview of current situation and progress made]
+[Brief overview of module position in learning path and prior covered material]
 
 ## CURRENT STATUS
 
-- **Progress Made**: [Specific achievements and metrics]
-- **Main Issue**: [Root cause analysis]
-- **Files Affected**: [List specific files]
+- **Progress Made**: [Specific content completed and learner achievements]
+- **Main Gap**: [Learning needs or content gaps]
+- **Files Affected**: [List specific notebooks or files]
 
 ## REMAINING WORK
 
-### 1. [Priority Task Name] (Priority N)
+### 1. [Priority Content Name] (Priority N)
 
-- **Problem**: [Specific technical issue]
-- **Current Error**: [Exact error messages]
-- **Solution Approach**: [Concrete implementation steps]
-- **Files to Modify**: [Specific file paths]
+- **Learning Objective**: [Specific skill or concept to teach]
+- **Current Challenge**: [What learners typically struggle with]
+- **Teaching Approach**: [Pedagogical strategy and implementation steps]
+- **Files to Create/Modify**: [Specific file paths]
 
 ## TECHNICAL CONSTRAINTS
 
-- **🚨 CRITICAL**: [Non-negotiable requirements]
-- **Framework**: [Technology stack requirements]
-- **Dependencies**: [Package/version constraints]
+- **🚨 CRITICAL**: [Non-negotiable educational requirements]
+- **Libraries**: [NumPy, Pandas, Scikit-learn version constraints]
+- **Dependencies**: [Package/version requirements in requirements.txt]
 
 ## RESPONSE FORMAT REQUIREMENTS
 
-- [Specific code structure expectations]
-- [Documentation requirements]
-- [Testing requirements]
-- [Build/deployment considerations]
+- [Notebook structure expectations]
+- [Markdown explanation requirements]
+- [Code comment standards]
+- [Visualization requirements]
 
 ## WHAT NOT TO DO
 
-- ❌ [Explicit forbidden actions with reasoning]
+- ❌ [Explicit forbidden actions - e.g., skipping explanations, complex code without buildup]
 
 ## WHAT TO DO
 
-- ✅ [Explicit required actions with priority]
+- ✅ [Explicit required actions - e.g., explain before code, progressive complexity]
 
 ## SUCCESS CRITERIA
 
-[Measurable outcomes with acceptance criteria]
+[Measurable learning outcomes and content quality standards]
 
 ## QUALITY STANDARDS
 
-- [Code quality requirements]
-- [Performance expectations]
-- [Security considerations]
-- [Maintainability standards]
+- [Code clarity and educational value]
+- [Explanation completeness]
+- [Example relevance]
+- [Progressive difficulty]
 ```
 
 ## 🎭 **Role-Based Specialization Examples**
 
-### **For Backend (Python/Flask) Development:**
+### **For Python/Data Science Tutorial Development:**
 
 ```markdown
-ROLE: You are a Senior Python Developer specializing in Flask REST API development, Google Gemini API integration, and PostgreSQL database design
+ROLE: You are a Data Science Educator specializing in Python programming, NumPy/Pandas instruction, and hands-on ML education
 
-EXPERTISE FOCUS: Flask route handlers, JWT authentication, prompt engineering, SQLAlchemy ORM, error handling patterns
+EXPERTISE FOCUS: Jupyter notebook instruction, clear code examples, progressive learning paths, visualization techniques
 
-OUTPUT REQUIREMENTS: Production-ready Python code with comprehensive error handling, unit tests with proper mocking, and enterprise-grade documentation
+OUTPUT REQUIREMENTS: Educational Jupyter notebooks with markdown explanations, well-commented code, visualizations, and practice exercises
 
 MANDATORY VALIDATION:
-- ✅ `pytest tests/` succeeds with 0 failures
-- ✅ `flask run` starts without errors
-- ✅ All API endpoints return proper HTTP status codes
-- ✅ JWT authentication works correctly
+- ✅ All notebook cells execute without errors
+- ✅ Code examples are clear and educational
+- ✅ Visualizations render correctly
+- ✅ Explanations match learner level
 ```
 
-### **For Frontend (TypeScript/React) Development:**
+### **For Machine Learning Content Development:**
 
 ```markdown
-ROLE: You are a Frontend Engineer specializing in React with TypeScript, component architecture, and API integration
+ROLE: You are a Machine Learning Educator specializing in supervised/unsupervised learning, model evaluation, and hands-on ML project instruction
 
-EXPERTISE FOCUS: TypeScript type safety, React hooks, component composition, API client patterns, state management
+EXPERTISE FOCUS: Scikit-learn workflows, model training and evaluation, feature engineering, hyperparameter tuning, practical ML projects
 
-OUTPUT REQUIREMENTS: Type-safe React components with proper error handling, unit tests, and comprehensive TypeScript interfaces
+OUTPUT REQUIREMENTS: Complete ML tutorials with theory, code implementation, model evaluation, and interpretation guidance
 
 MANDATORY VALIDATION:
-- ✅ `npm run build` succeeds with 0 TypeScript errors
-- ✅ `npm test` passes with 0 failures
-- ✅ ESLint passes with 0 errors
-- ✅ All components are properly typed
+- ✅ Notebooks execute with sample datasets
+- ✅ Models train successfully and produce valid metrics
+- ✅ Visualizations show model performance clearly
+- ✅ Best practices are demonstrated
 ```
 
-### **For AI Integration & Prompt Engineering:**
+### **For Data Visualization & EDA:**
 
 ```markdown
-ROLE: You are an AI Integration Specialist specializing in Google Gemini API integration, prompt engineering, and GenAI content generation
+ROLE: You are a Data Visualization Specialist and EDA Instructor specializing in matplotlib, seaborn, and exploratory data analysis techniques
 
 EXPERTISE FOCUS: 
-- Prompt engineering and structured prompt construction
-- Google Gemini API integration patterns
-- Content generation quality and consistency
-- Error handling for API failures
-- Input validation and security
+- Effective visualization design principles
+- Statistical plots and interpretation
+- EDA workflows and best practices
+- Visual storytelling with data
+- Common pitfalls and how to avoid them
 
 OUTPUT REQUIREMENTS:
-- Production-ready prompt engineering code with comprehensive error handling
-- Structured prompts optimized for Google Gemini
-- Input validation and sanitization
-- Security guardrails and API key protection
-- Documentation with prompt strategies and limitations
-
-ARCHITECTURAL PATTERNS:
-- Instruction-based prompts for email/report generation
-- Role-based prompts for tone and style control
-- Chain-of-Thought for complex content generation
-- Error handling with graceful degradation
+- Jupyter notebooks with varied visualization examples
+- Clear explanations of when to use each plot type
+- Code following visualization best practices
+- Interpretation guidance for each visualization
+- Practical EDA case studies
 
 MANDATORY VALIDATION:
-- ✅ Prompt engineering tests pass with defined quality metrics
-- ✅ API error handling works correctly
-- ✅ No API keys exposed in code
-- ✅ Generated content meets quality standards
+- ✅ All visualizations render correctly
+- ✅ Code is well-commented and educational
+- ✅ Plot customizations demonstrate best practices
+- ✅ EDA insights are clearly explained
 ```
 
-### **For N-Tier Architecture Implementation:**
+### **For Educational Content Architecture:**
 
 ```markdown
-ROLE: You are a Lead Enterprise Architect specializing in N-Tier web application architecture, microservices design, and scalable system architecture
+ROLE: You are a Learning Experience Designer specializing in ML/DS curriculum development, progressive learning paths, and educational content architecture
 
 EXPERTISE FOCUS:
-- N-Tier architecture separation (Presentation, Application, Data, AI Service layers)
-- RESTful API design and best practices
-- Database schema design and migrations
-- Security patterns (JWT, RBAC, input validation)
-- System resilience, scalability, and observability
+- Progressive complexity and scaffolding
+- Learning objectives and outcomes
+- Prerequisites and knowledge dependencies
+- Assessment and practice exercise design
+- Module organization and navigation
 
 OUTPUT REQUIREMENTS:
-- Architecture Decision Records (ADRs) documenting trade-offs
-- System design diagrams with components and integration points
-- Reference implementations following N-Tier patterns
-- Security considerations and best practices
-- Database schema with proper relationships
+- Well-structured learning modules with clear objectives
+- Content organized by difficulty and prerequisites
+- Practice exercises with varying difficulty levels
+- Clear learning paths and content dependencies
+- Module README files with navigation guidance
 
 SUCCESS CRITERIA:
-- ✅ Architecture maintains clear layer separation
-- ✅ Trade-offs clearly documented with reasoning
-- ✅ Scalability and resilience characteristics defined
-- ✅ Implementation examples demonstrate pattern application
+- ✅ Content follows progressive learning principles
+- ✅ Prerequisites clearly documented
+- ✅ Learning objectives are measurable
+- ✅ Practice opportunities reinforce concepts
 ```
 
 ## 🚨 **Critical Constraint Guidelines**
 
-### **Framework/Package Versions:**
+### **Package/Library Versions:**
 
 ```markdown
-- 🚨 CRITICAL: Use Python 3.9+ ONLY - DO NOT downgrade
-- 🚨 CRITICAL: Use React 18+ with TypeScript 5+ - DO NOT downgrade
-- ❌ DO NOT modify requirements.txt to downgrade packages
-- ❌ DO NOT modify package.json to downgrade dependencies
+- 🚨 CRITICAL: Use Python 3.8+ ONLY - DO NOT downgrade
+- 🚨 CRITICAL: Keep scikit-learn, pandas, numpy at compatible versions
+- ❌ DO NOT modify requirements.txt without verifying compatibility
+- ❌ DO NOT use deprecated APIs without explaining alternatives
 ```
 
-### **File Modification Boundaries:**
+### **Educational Content Boundaries:**
 
 ```markdown
-- ❌ DO NOT modify [specific files]
-- ✅ ONLY modify [allowed areas]
+- ❌ DO NOT skip explanations for complex concepts
+- ❌ DO NOT use advanced techniques without building foundations
+- ✅ ALWAYS explain "why" before "how"
+- ✅ ALWAYS include practical examples
 ```
 
-### **Build Requirements:**
+### **Notebook Requirements:**
 
 ```markdown
-When building backend, use: cd backend && python -m venv venv && source venv/bin/activate && pip install -r requirements.txt
-When building frontend, use: cd frontend && npm install && npm run build
-Ensure all code follows project standards (PEP 8 for Python, ESLint for TypeScript)
+When creating notebooks, use: Markdown cells for theory/explanations, code cells with comments, outputs included for demonstration
+Ensure all notebooks are self-contained with necessary imports
+All code should be runnable with datasets in src/10-datasets/ or external links
 ```
 
 ## ✅ **Effective Instruction Patterns**
 
-### **DO - Be Specific and Explicit:**
+### **DO - Be Specific and Educational:**
 
-- ✅ "Create prompt_engine.py to construct structured prompts for Google Gemini API"
-- ✅ "Update EmailGenerator.tsx to handle API errors gracefully with user-friendly messages"
-- ✅ "Fix JWT token validation in auth.py - check token expiration and signature"
+- ✅ "Create linear_regression_tutorial.ipynb explaining theory, implementation, and evaluation"
+- ✅ "Add practice exercises to pandas module with progressive difficulty levels"
+- ✅ "Develop EDA case study using housing dataset with step-by-step analysis"
 
 ### **DON'T - Be Vague:**
 
-- ❌ "Fix the authentication"
-- ❌ "Make it work"
-- ❌ "Update the code"
+- ❌ "Add ML content"
+- ❌ "Make it educational"
+- ❌ "Create some exercises"
 
 ## 📝 **Constraint Language Examples**
 
 ### **Strong Constraint Language That Works:**
 
 ```markdown
-🚨 ABSOLUTELY DO NOT modify .env.example or commit API keys to repository.
+🚨 ABSOLUTELY DO NOT include sensitive data in example datasets.
 
-The following packages MUST remain at their current versions:
-- google-generativeai: Latest stable version
-- flask-jwt-extended: Latest stable version
-- react: ^18.0.0
-- typescript: ^5.0.0
+The following educational principles MUST be followed:
+- Start with simple examples before complex ones
+- Explain concepts before showing code
+- Include visualizations for key concepts
+- Provide practice exercises
 
-CRITICAL: Any attempt to commit API keys or downgrade versions will require task restart.
+CRITICAL: Any notebook that doesn't execute successfully or skips fundamental explanations will require revision.
 ```
 
 ### **Weak Language That Doesn't Work:**
 
 ```markdown
-Please try to maintain Python 3.9+ compatibility
-Prefer keeping current package versions
+Please try to make content educational
+Prefer including some explanations
 ```
 
-## 🎯 **Advanced Prompt Design Patterns**
+## 🎯 **Advanced Educational Prompt Patterns**
 
-### **Multi-Layered Prompt Architecture:**
+### **Multi-Layered Content Architecture:**
 
 ```markdown
-SYSTEM LAYER:
-You are a [Specialist Role] with expertise in [Technology Stack] and [Domain Expertise].
+CONCEPT LAYER:
+You are a [ML/DS Educator] with expertise in [Topic] and [Teaching Methodology].
 
-CONTEXT LAYER:  
-[Project context, current situation, business requirements]
+LEARNING CONTEXT:  
+[Module position in curriculum, learner background, prerequisites covered]
 
-TASK LAYER:
-[Specific implementation task with clear deliverables]
+CONTENT TASK:
+[Specific content to create with clear learning outcomes]
 
-SPECIFICATION LAYER:
-[Detailed technical requirements, constraints, and acceptance criteria]
+QUALITY SPECIFICATIONS:
+[Pedagogical requirements, code standards, visualization expectations, assessment criteria]
 ```
 
-### **Conditional Logic for Complex Scenarios:**
+### **Conditional Logic for Progressive Learning:**
 
 ```markdown
 LOGIC FRAMEWORK:
-IF issue_type == "gemini_api_error":
-THEN approach: Implement retry logic with exponential backoff
-AND include: Proper error handling and user notification
+IF learner_level == "beginner":
+THEN approach: Start with intuitive explanations, simple examples, heavy scaffolding
+AND include: Step-by-step guidance, common pitfalls, debugging tips
 
-ELIF issue_type == "jwt_authentication":  
-THEN approach: Verify token signature and expiration
-AND include: Refresh token mechanism
+ELIF learner_level == "intermediate":  
+THEN approach: Deeper theory, multiple implementations, comparison of approaches
+AND include: Best practices, optimization techniques, real-world considerations
 
-ELIF issue_type == "database_connection":
-THEN approach: Check connection string and PostgreSQL service
-AND include: Connection pooling and error recovery
+ELIF learner_level == "advanced":
+THEN approach: Advanced techniques, edge cases, production considerations
+AND include: Performance optimization, scalability, research papers
 ```
 
-### **Progressive Refinement Pattern:**
+### **Progressive Complexity Pattern:**
 
 ```markdown
-BASE PROMPT: [Core role and task definition]
+BASE CONTENT: [Core concept with simplest example]
 
-REFINEMENT 1: Add specific technical constraints
-REFINEMENT 2: Define output format requirements  
-REFINEMENT 3: Include quality standards and acceptance criteria
-REFINEMENT 4: Add monitoring and validation requirements
+COMPLEXITY LEVEL 1: Basic implementation with clear explanations
+COMPLEXITY LEVEL 2: Add variations and parameter exploration  
+COMPLEXITY LEVEL 3: Real-world dataset and practical considerations
+COMPLEXITY LEVEL 4: Advanced techniques and optimization
 
-FINAL VALIDATION: Ensure all constraints are explicitly stated
+ASSESSMENT: Include exercises at each level to verify understanding
 ```
 
 ## 📊 **Output Format Control**
 
-### **For Code Generation Tasks:**
+### **For Jupyter Notebook Creation:**
 
 ```markdown
 OUTPUT REQUIREMENTS:
-- Production-ready code with comprehensive error handling
-- Unit tests with proper mocking patterns
-- Type hints for Python, TypeScript types for React
-- Comprehensive docstrings for Python, JSDoc for TypeScript
-- Consistent code style following project conventions (PEP 8, ESLint)
-- No hardcoded API keys or secrets
-- Include integration points and dependency injection setup
+- Markdown cells: Theory, explanations, learning objectives
+- Code cells: Well-commented, educational code with clear variable names
+- Outputs: Include visualizations and results for demonstration
+- Structure: Introduction, theory, implementation, practice, summary
+- All cells execute successfully in order
+- Dependencies clearly stated at beginning
 ```
 
-### **For API Development Tasks:**
+### **For Practice Exercise Creation:**
 
 ```markdown
 OUTPUT REQUIREMENTS:
-- RESTful API endpoints with proper HTTP methods
-- Request/response validation
-- Error handling with appropriate status codes
-- JWT authentication middleware
-- Database transaction management
-- API documentation with examples
+- Clear problem statement and learning objectives
+- Starter code with TODOs for learner completion
+- Hints for common challenges
+- Solution notebook (separate file or commented out)
+- Expected output examples
+- Difficulty level indication
 ```
 
-### **For Frontend Component Tasks:**
+### **For Data Science Project Development:**
 
 ```markdown
 OUTPUT REQUIREMENTS:
-- Type-safe React components with TypeScript
-- Proper error boundaries and loading states
-- API client integration with error handling
-- Responsive design considerations
-- Accessibility (a11y) compliance
-- Unit tests with React Testing Library
+- Complete project with clear problem definition
+- Data exploration and preprocessing steps
+- Model training and evaluation code
+- Visualizations of results
+- Interpretation and insights section
+- README with project overview and setup instructions
 ```
 
-## 🤖 **Google Gemini Integration Framework**
+## 🎓 **Machine Learning Education Framework**
 
-When designing AI integration tasks, include evaluation and observability requirements:
+When designing ML content, include learning progression and assessment:
 
-### **Gemini API Integration Template:**
+### **ML Content Development Template:**
 
 ```markdown
-## GEMINI API INTEGRATION FRAMEWORK
+## ML CONTENT DEVELOPMENT FRAMEWORK
 
-### Integration Requirements
-- **API Key Management**: Environment variables only, never hardcoded
-- **Error Handling**: Retry logic with exponential backoff
-- **Rate Limiting**: Respect API rate limits and implement throttling
-- **Input Validation**: Validate and sanitize all user inputs before API calls
+### Learning Requirements
+- **Prerequisites**: Clearly list required knowledge
+- **Learning Objectives**: Specific, measurable outcomes
+- **Difficulty Level**: Beginner/Intermediate/Advanced indication
+- **Estimated Time**: Expected completion time
 
-### Prompt Engineering
-- **Structure**: Role definition, task description, tone, formatting
-- **Context**: User-provided context integration
-- **Output Control**: Length, format, and style constraints
-- **Testing**: Test prompts with diverse inputs
+### Content Structure
+- **Theory Section**: Concept explanation with visual aids
+- **Implementation**: Stepby-step code with explanations
+- **Examples**: Multiple examples showing concept application
+- **Practice**: Exercises for hands-on learning
 
 ### Success Criteria
-- API calls succeed with proper error handling
-- Generated content meets quality standards
-- No API keys exposed in code or logs
-- Response times within acceptable range
-- Cost tracking and monitoring implemented
+- All code executes without errors
+- Explanations are clear and accessible
+- Examples are practical and relevant
+- Learners can complete practice exercises
 ```
 
-### **Prompt Engineering Observability Template:**
+### **Educational Content Observability Template:**
 
 ```markdown
-## PROMPT ENGINEERING OBSERVABILITY
+## CONTENT EFFECTIVENESS TRACKING
 
-### Metrics to Track
-- Prompt construction time
-- API response latency
-- Token usage and costs
-- Content quality scores
-- Error rates and types
+### Metrics to Consider
+- Clarity of explanations
+- Code example quality
+- Visualization effectiveness
+- Exercise difficulty appropriateness
+- Learner progression through material
 
-### Logging Implementation
-- Structured logging with correlation IDs
-- Prompt and response logging (sanitized)
-- Error tracking and analysis
-- Performance metrics collection
+### Quality Indicators
+- Notebooks execute successfully
+- Explanations match learner level
+- Examples demonstrate concepts clearly
+- Visualizations enhance understanding
 
-### Observable Signals
-- API call success/failure rates
-- Content generation quality trends
-- User satisfaction metrics
-- Cost per generation tracking
-
-### Analysis & Improvement
-- Identify prompt optimization opportunities
-- Detect quality degradation patterns
-- Measure business impact of improvements
-- Plan optimizations based on observed patterns
+### Continuous Improvement
+- Identify confusing sections
+- Add clarifying examples where needed
+- Update with better datasets
+- Incorporate learner feedback
 ```
 
 ## 🎯 **Success Indicators**
 
-### **Agent is working correctly when:**
+### **Educational content is effective when:**
 
 - ✅ It acknowledges constraints explicitly
 - ✅ It asks clarifying questions about boundaries
