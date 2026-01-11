@@ -44,12 +44,12 @@ ENV/
 *.ckpt
 
 # Large datasets (keep folder structure)
-10-datasets/raw/*
-10-datasets/processed/*
-10-datasets/external/*
-!10-datasets/raw/.gitkeep
-!10-datasets/processed/.gitkeep
-!10-datasets/external/.gitkeep
+src/10-datasets/raw/*
+src/10-datasets/processed/*
+src/10-datasets/external/*
+!src/10-datasets/raw/.gitkeep
+!src/10-datasets/processed/.gitkeep
+!src/10-datasets/external/.gitkeep
 
 # ============================
 # Visual Studio

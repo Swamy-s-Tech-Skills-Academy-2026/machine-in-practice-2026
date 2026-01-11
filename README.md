@@ -4,106 +4,41 @@ Hands-on learning repository covering end-to-end Machine Learning and Data Scien
 
 ## 📚 Repository Structure
 
-### 01. Python Foundations
-Core Python programming skills essential for data science.
-- **basics/** - Variables, data types, operators
-- **control-flow/** - Conditionals, loops, error handling
-- **functions/** - Function definitions, lambda, decorators
-- **oop-basics/** - Classes, objects, inheritance
-- **practice-notebooks/** - Hands-on exercises
+This repository is organized into clear, modular sections covering the complete machine learning journey from Python basics to advanced NLP projects.
 
-### 02. NumPy and Pandas
-Data manipulation and numerical computing fundamentals.
-- **numpy/** - Arrays, vectorization, broadcasting
-- **pandas/** - DataFrames, Series, data operations
-- **data-wrangling/** - Data cleaning and transformation
-- **exercises/** - Practice problems
+📖 **[View Complete Repository Structure](docs/01_repository-structure.md)** - Detailed breakdown of all modules, subdirectories, and learning materials.
 
-### 03. Data Visualization
-Creating meaningful visual representations of data.
-- **matplotlib/** - Basic plotting and customization
-- **seaborn/** - Statistical visualizations
-- **visualization-exercises/** - Practice projects
+### Quick Overview
 
-### 04. Statistics for Data Science
-Statistical foundations for machine learning.
-- **descriptive-statistics/** - Mean, median, variance, etc.
-- **probability/** - Probability theory and distributions
-- **distributions/** - Normal, binomial, Poisson, etc.
-- **hypothesis-testing/** - t-tests, ANOVA, chi-square
-- **notebooks/** - Statistical analysis examples
+```text
+machine-in-practice-2026/
+│
+├── src/                    # All course materials
+│   ├── 01-python-foundations/
+│   ├── 02-numpy-and-pandas/
+│   ├── 03-data-visualization/
+│   ├── 04-statistics-for-data-science/
+│   ├── 05-data-cleaning/
+│   ├── 06-exploratory-data-analysis/
+│   ├── 07-feature-engineering/
+│   ├── 08-machine-learning/
+│   ├── 09-natural-language-processing/
+│   ├── 10-datasets/
+│   ├── 11-assignments/
+│   └── 12-projects/
+│
+├── notes/                  # Reference materials
+├── docs/                   # Documentation
+├── requirements.txt        # Python dependencies
+└── README.md              # This file
+```
 
-### 05. Data Cleaning
-Preparing data for analysis and modeling.
-- **missing-values/** - Imputation techniques
-- **outliers/** - Detection and handling
-- **encoding/** - Categorical variable encoding
-- **scaling-normalization/** - Feature scaling methods
+### Key Resources
 
-### 06. Exploratory Data Analysis (EDA)
-Understanding data through analysis and visualization.
-- **univariate-analysis/** - Single variable analysis
-- **bivariate-analysis/** - Relationship between two variables
-- **multivariate-analysis/** - Multiple variable interactions
-- **eda-case-studies/** - Real-world examples
-
-### 07. Feature Engineering
-Creating and selecting features for better model performance.
-- **feature-creation/** - Deriving new features
-- **feature-selection/** - Identifying important features
-- **feature-transformation/** - Polynomial, log transforms
-
-### 08. Machine Learning
-Core machine learning algorithms and techniques.
-
-#### Supervised Learning
-- **regression/** - Linear, polynomial, ridge, lasso
-- **classification/** - Logistic, SVM, decision trees, random forest
-
-#### Unsupervised Learning
-- **clustering/** - K-means, hierarchical, DBSCAN
-- **dimensionality-reduction/** - PCA, t-SNE
-
-#### Model Evaluation
-- **metrics/** - Accuracy, precision, recall, F1, R²
-- **cross-validation/** - K-fold, stratified
-- **bias-variance/** - Understanding tradeoffs
-
-### 09. Natural Language Processing
-Working with text data.
-- **text-preprocessing/** - Tokenization, stemming, lemmatization
-- **vectorization/** - Bag of Words, TF-IDF, word embeddings
-- **classical-nlp/** - Sentiment analysis, text classification
-- **nlp-projects/** - Real-world NLP applications
-
-### 10. Datasets
-Organized data storage.
-- **raw/** - Original, unprocessed data
-- **processed/** - Cleaned and transformed data
-- **external/** - Third-party datasets
-
-### 11. Assignments
-Practice assignments organized by topic.
-- **python/** - Python programming exercises
-- **statistics/** - Statistical analysis tasks
-- **eda/** - Exploratory analysis assignments
-- **machine-learning/** - ML model building tasks
-- **nlp/** - Text processing assignments
-
-### 12. Projects
-End-to-end project implementations.
-- **project-01-eda/** - Exploratory data analysis project
-- **project-02-regression/** - Regression modeling
-- **project-03-classification/** - Classification problem
-- **project-04-clustering/** - Unsupervised learning
-- **project-05-nlp/** - NLP application
-- **project-10-capstone/** - Comprehensive final project
-
-### Notes
-Reference materials and study guides.
-- [concepts.md](notes/concepts.md) - Key concepts summary
-- [formulas.md](notes/formulas.md) - Important mathematical formulas
-- [interview-notes.md](notes/interview-notes.md) - Interview preparation guide
+- **[Repository Structure](docs/01_repository-structure.md)** - Complete directory breakdown
+- **[Concepts](notes/concepts.md)** - Key ML concepts summary
+- **[Formulas](notes/formulas.md)** - Important mathematical formulas
+- **[Interview Notes](notes/interview-notes.md)** - Interview preparation guide
 
 ## 🚀 Getting Started
 
