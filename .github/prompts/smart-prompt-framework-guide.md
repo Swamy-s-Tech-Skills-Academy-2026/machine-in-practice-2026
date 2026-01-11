@@ -397,272 +397,279 @@ When designing ML content, include learning progression and assessment:
 
 - ❌ It immediately modifies forbidden files
 - ❌ It commits API keys or secrets
-- ❌ It ignores explicit constraints
-- ❌ It breaks N-Tier architecture separation
-- ❌ It takes overly broad approach to simple problems
+- ❌ It ignores explicit educational constraints
+- ❌ It skips prerequisite concepts or explanations
+- ❌ It creates non-executable code examples
+- ❌ It takes overly complex approach for beginner content
 
 ## 🔄 **Agent Restart Protocol**
 
 ### **When to restart the coding agent:**
 
-- Agent commits API keys or secrets
-- Agent breaks N-Tier architecture separation
-- Agent modifies forbidden files
-- Agent ignores explicit constraints
-- Agent takes wrong architectural approach
+- Agent creates notebooks with execution errors
+- Agent skips essential explanations or theory
+- Agent creates content at wrong difficulty level
+- Agent ignores explicit educational constraints
+- Agent creates non-progressive learning paths
 
 ### **How to restart:**
 
-1. Close current pull request
-2. Create new pull request with more explicit constraints
-3. Include specific examples of what went wrong
-4. Add stronger constraint language
+1. Provide clearer learning objectives and target audience
+2. Specify prerequisite knowledge more explicitly
+3. Include specific examples of desired content structure
+4. Add stronger pedagogical constraint language
 
-## 🏗️ **N-Tier Architecture Patterns**
+## 🏗️ **Educational Content Architecture Patterns**
 
-When tasks span multiple architectural layers, apply these patterns:
+When tasks span multiple learning modules, apply these patterns:
 
-### **Pattern: N-Tier Architecture Separation**
+### **Pattern: Progressive Learning Path**
 
 ```markdown
-ARCHITECTURAL PATTERN: N-Tier Architecture with Clear Layer Separation
+ARCHITECTURAL PATTERN: Progressive Complexity with Clear Prerequisites
 
-LAYERS INVOLVED:
-- Presentation Layer: React.js with TypeScript (Frontend)
-- Application Layer: Flask REST API (Backend)
-- Data Layer: PostgreSQL Database
-- AI Service Layer: Google Gemini API
+LEARNING LEVELS:
+- Foundation Layer: Python basics, data structures, control flow
+- Data Layer: NumPy arrays, Pandas dataframes, data manipulation
+- Visualization Layer: Matplotlib, Seaborn, effective visual communication
+- ML Layer: Supervised learning, unsupervised learning, model evaluation
+- Advanced Layer: NLP, deep learning, real-world projects
 
 IMPLEMENTATION REQUIREMENTS:
-- Clear separation between frontend and backend
-- RESTful API design with proper HTTP methods
-- Database models with SQLAlchemy ORM
-- Service layer for business logic
-- Prompt engine for AI integration
-- Proper error handling at each layer
+- Clear prerequisite identification at each level
+- Progressive difficulty within each module
+- Scaffolded learning with guided practice
+- Hands-on exercises at each stage
+- Real-world applications and projects
 
 QUALITY GATES:
-✅ Frontend and backend are decoupled
-✅ API endpoints follow RESTful conventions
-✅ Database models properly defined
-✅ Services handle business logic
-✅ No direct database access from frontend
-✅ Integration tests validate layer boundaries
+✅ Prerequisites clearly documented
+✅ Content progresses logically
+✅ Each level builds on previous knowledge
+✅ Practice opportunities at each level
+✅ Assessment aligns with learning objectives
+✅ Learner can navigate learning path
 ```
 
-### **Pattern: JWT Authentication & RBAC**
+### **Pattern: Notebook-Driven Learning**
 
 ```markdown
-ARCHITECTURAL PATTERN: JWT-based Authentication with Role-Based Access Control
+ARCHITECTURAL PATTERN: Jupyter Notebook-Based Educational Content
 
 CHARACTERISTICS:
-- Stateless authentication with JWT tokens
-- Role-based access control (Admin, User)
-- Token refresh mechanism
-- Secure token storage (localStorage with expiration)
+- Self-contained learning units with theory and practice
+- Markdown for explanations, code cells for implementation
+- Visualizations to demonstrate concepts
+- Progressive reveal of complexity
+- Immediate feedback through code execution
 
 IMPLEMENTATION REQUIREMENTS:
-- JWT token generation and validation
-- Role-based route protection
-- Token refresh endpoint
-- Secure password hashing (bcrypt)
-- Input validation and sanitization
+- Clear learning objectives at notebook start
+- Theory sections with visual aids
+- Well-commented code examples
+- Practice exercises with TODOs
+- Solutions (separate file or commented out)
+- Summary and next steps at end
 
 QUALITY GATES:
-✅ Tokens are properly signed and validated
-✅ Roles are enforced at API level
-✅ Passwords are hashed, never stored plaintext
-✅ Token expiration is handled gracefully
-✅ Security best practices followed
+✅ All cells execute without errors in order
+✅ Markdown explanations are clear and accessible
+✅ Code demonstrates best practices
+✅ Visualizations enhance understanding
+✅ Exercises reinforce learning objectives
+✅ Dependencies clearly stated
 ```
 
-## 📋 **Universal PR Success Template**
+## 📋 **Universal Content Quality Template**
 
-Include this template in EVERY coding agent PR for consistent validation:
+Include this template in EVERY educational content creation for consistent validation:
 
 ```markdown
-## 🎯 MANDATORY SUCCESS CRITERIA (NON-NEGOTIABLE)
+## 🎯 MANDATORY QUALITY CRITERIA (NON-NEGOTIABLE)
 
-### Backend Build Requirements
+### Notebook Execution Requirements
 ```powershell
-# MUST PASS: Backend tests with zero failures
-cd backend
-python -m pytest tests/ -v
-# Expected Result: "passed" with 0 failures
+# MUST PASS: All notebook cells execute without errors
+jupyter nbconvert --to notebook --execute notebook.ipynb
+# Expected Result: Notebook executes successfully with no errors
 ```
 
-### Frontend Build Requirements
+### Code Quality Requirements
 
 ```powershell
-# MUST PASS: Frontend build with zero TypeScript errors
-cd frontend
-npm run build
-# Expected Result: Build succeeds with 0 errors
+# MUST PASS: Python code passes linting
+flake8 *.py
+# Expected Result: No linting errors
 ```
 
-### Test Requirements
+### Content Validation
 
-```powershell
-# MUST PASS: All existing unit tests
-cd backend && python -m pytest tests/ -v
-cd frontend && npm test
-# Expected Result: All tests pass with 0 failures
+```markdown
+# MUST VERIFY: Educational content quality
+- [ ] Learning objectives clearly stated
+- [ ] Prerequisites documented
+- [ ] Theory explained before implementation
+- [ ] Code examples are clear and well-commented
+- [ ] Visualizations enhance understanding
+- [ ] Practice exercises included
+- [ ] All code executes successfully
+- [ ] Explanations match target audience level
 ```
 
 ## 📋 FINAL CHECKLIST
 
-Before marking this PR ready for review:
+Before marking educational content as complete:
 
-- [ ] ✅ Backend tests pass with 0 failures
-- [ ] ✅ Frontend build succeeds with 0 TypeScript errors
-- [ ] ✅ All original issues resolved completely
-- [ ] ✅ No API keys or secrets committed
-- [ ] ✅ N-Tier architecture separation maintained
-- [ ] ✅ All existing functionality preserved
-- [ ] ✅ Production-ready error handling implemented
+- [ ] ✅ All notebook cells execute without errors
+- [ ] ✅ Code follows PEP 8 standards
+- [ ] ✅ All learning objectives are addressed
+- [ ] ✅ Prerequisites are clearly documented
+- [ ] ✅ Visualizations render correctly
+- [ ] ✅ Practice exercises are appropriate and solvable
+- [ ] ✅ Explanations are clear and accessible
+- [ ] ✅ Content follows progressive learning principles
 
-**CRITICAL**: Do not mark this PR as ready for review until ALL build and test validations pass successfully.
+**CRITICAL**: Do not mark content as complete until ALL validation criteria are met.
 
 ```text
 
-## 🚀 **GenAI Email & Report Drafting System-Specific S.M.A.R.T. Example**
+## 🚀 **Machine Learning in Practice 2026-Specific S.M.A.R.T. Example**
 
 ```markdown
-ROLE: You are a Senior Full-Stack Developer specializing in N-Tier web applications, Google Gemini AI integration, and enterprise-grade authentication systems
+ROLE: You are a Senior Machine Learning Educator specializing in hands-on ML instruction, progressive learning design, and Jupyter notebook-based tutorials
 
-MISSION: Implement email generation feature in the GenAI Email & Report Drafting System - an enterprise-grade, N-Tier web application for AI-powered content generation using React.js with TypeScript, Flask REST API, PostgreSQL, and Google Gemini API
+MISSION: Create comprehensive linear regression module in the Machine Learning in Practice 2026 repository - an educational repository for hands-on ML and Data Science learning using Python, NumPy, Pandas, Matplotlib, Seaborn, and Scikit-learn
 
-AUDIENCE: Development team with expertise in:
-- React.js with TypeScript and modern React patterns
-- Flask REST API development and JWT authentication
-- PostgreSQL database design and SQLAlchemy ORM
-- Google Gemini API integration and prompt engineering
-- N-Tier architecture patterns
+AUDIENCE: Intermediate learners with knowledge of:
+- Python fundamentals and programming concepts
+- NumPy arrays and Pandas dataframes
+- Basic statistics and data visualization
+- Eager to learn machine learning algorithms
 
 RESPONSE FORMAT:
-- Production-ready code with comprehensive error handling
-- Type-safe TypeScript components and Python type hints
-- Unit tests for both frontend and backend
-- Enterprise-grade documentation with API examples
-- Proper N-Tier architecture separation
+- Production-ready Jupyter notebooks with clear structure
+- Markdown explanations with theory and practical guidance
+- Well-commented code with educational value
+- Visualizations demonstrating key concepts
+- Practice exercises with progressive difficulty
 
 TASK CONSTRAINTS:
-- 🚨 CRITICAL: Maintain N-Tier architecture separation
-- 🚨 CRITICAL: Never commit API keys or secrets
-- Architecture: Frontend (React/TypeScript) → Backend (Flask) → Database (PostgreSQL) → AI Service (Google Gemini)
-- Quality Standards: Zero build errors, 100% test pass rate
-- Technology Stack: React 18+, TypeScript 5+, Python 3.9+, Flask, PostgreSQL, Google Gemini API
+- 🚨 CRITICAL: All notebooks must execute without errors
+- 🚨 CRITICAL: Content must be appropriate for intermediate learners
+- Structure: Theory → Implementation → Visualization → Practice
+- Quality Standards: Clear explanations, executable code, effective visualizations
+- Technology Stack: Python 3.8+, NumPy, Pandas, Matplotlib, Seaborn, Scikit-learn
 ```
 
 ## 📚 **Best Practices Summary**
 
-1. **Be Specific**: Define exact roles, technologies, and constraints
-2. **Set Clear Boundaries**: Use strong constraint language
-3. **Define Success**: Include measurable outcomes and validation steps
+1. **Be Specific**: Define exact learning objectives, audience level, and content requirements
+2. **Set Clear Boundaries**: Use strong educational constraint language
+3. **Define Success**: Include measurable learning outcomes and validation steps
 4. **Control Output**: Specify exactly what format and quality you expect
-5. **Plan for Failure**: Include restart protocols and troubleshooting
-6. **Validate Everything**: Always include build and test requirements
-7. **Document Thoroughly**: Ensure all decisions and constraints are recorded
-8. **Align with Architecture**: Reference N-Tier architecture patterns
-9. **Enable Observability**: Include tracing and evaluation requirements
-10. **Progressive Complexity**: Scale scope to team's architectural maturity level
+5. **Plan for Learning**: Include scaffolding, practice, and assessment
+6. **Validate Everything**: Ensure all notebooks execute and explanations are clear
+7. **Document Thoroughly**: Ensure all prerequisites and learning paths are recorded
+8. **Align with Pedagogy**: Reference progressive learning principles
+9. **Enable Practice**: Include hands-on exercises and projects
+10. **Progressive Complexity**: Scale difficulty appropriately for target audience
 
 ---
 
 ## ⚡ **Quick Reference Checklist**
 
-Use this checklist before submitting any coding agent task:
+Use this checklist before submitting any educational content creation task:
 
-### **Role Definition**
+### **Learning Objective Definition**
 
-- [ ] Specific role/expertise clearly stated
-- [ ] Technology stack and frameworks identified
-- [ ] Expected audience knowledge level documented
-- [ ] Domain context provided
+- [ ] Specific learning outcomes clearly stated
+- [ ] Technology stack and libraries identified
+- [ ] Expected learner knowledge level documented
+- [ ] Prerequisites listed explicitly
 
-### **Task Clarity**
+### **Content Clarity**
 
-- [ ] Mission and objectives clearly defined
+- [ ] Mission and educational goals clearly defined
 - [ ] Success criteria are measurable
-- [ ] Scope is appropriately sized
-- [ ] Priority and sequencing defined
+- [ ] Scope is appropriately sized for learning module
+- [ ] Difficulty and sequencing defined
 
 ### **Technical Requirements**
 
-- [ ] Framework and version constraints specified
-- [ ] Architectural patterns identified (N-Tier)
+- [ ] Python version and library constraints specified
+- [ ] Educational patterns identified (progressive learning)
 - [ ] Dependencies listed explicitly
-- [ ] Integration points documented
+- [ ] Dataset requirements documented
 
-### **Constraints & Boundaries**
+### **Educational Constraints & Boundaries**
 
-- [ ] Forbidden actions explicitly listed (❌)
-- [ ] Required actions explicitly listed (✅)
-- [ ] File modification boundaries defined
-- [ ] Architectural decision constraints included
+- [ ] Complexity constraints explicitly listed (❌)
+- [ ] Required educational elements explicitly listed (✅)
+- [ ] Content structure boundaries defined
+- [ ] Pedagogical decision constraints included
 
 ### **Quality & Validation**
 
-- [ ] Code quality standards specified (PEP 8, ESLint)
-- [ ] Build/test requirements included
-- [ ] Performance expectations defined
-- [ ] Security considerations addressed (API keys, JWT)
+- [ ] Code quality standards specified (PEP 8)
+- [ ] Notebook execution requirements included
+- [ ] Learning outcome assessment defined
+- [ ] Content accessibility addressed
 
-### **AI Integration Specifics** (if applicable)
+### **Practice & Assessment** (if applicable)
 
-- [ ] Google Gemini API integration patterns defined
-- [ ] Prompt engineering requirements specified
-- [ ] Error handling for API failures included
-- [ ] Security guardrails documented
+- [ ] Practice exercises included
+- [ ] Exercise difficulty levels specified
+- [ ] Solutions provided (separate or commented)
+- [ ] Formative assessment opportunities defined
 
 ### **Output Expectations**
 
-- [ ] Code format and style specified
+- [ ] Notebook format and structure specified
 - [ ] Documentation requirements defined
-- [ ] Testing approach specified
-- [ ] Deployment considerations included
+- [ ] Visualization approach specified
+- [ ] Learning progression considerations included
 
 ---
 
 ## 📋 **FINAL VALIDATION CHECKLIST**
 
-Before submitting ANY coding agent PR or task completion:
+Before submitting ANY educational content or marking complete:
 
-- [ ] ✅ All technical constraints acknowledged
-- [ ] ✅ Success criteria clearly measurable
-- [ ] ✅ Backend tests pass without errors/failures
-- [ ] ✅ Frontend build succeeds without TypeScript errors
-- [ ] ✅ No forbidden files modified
-- [ ] ✅ N-Tier architectural patterns applied correctly
-- [ ] ✅ No API keys or secrets committed
+- [ ] ✅ All educational constraints acknowledged
+- [ ] ✅ Learning objectives clearly measurable
+- [ ] ✅ All notebook cells execute without errors
+- [ ] ✅ Code follows Python best practices (PEP 8)
+- [ ] ✅ Explanations match target audience level
+- [ ] ✅ Progressive learning principles applied correctly
+- [ ] ✅ Practice exercises included and tested
 - [ ] ✅ Documentation is complete and accurate
-- [ ] ✅ Code review readiness criteria met
+- [ ] ✅ Content review readiness criteria met
 
 ---
 
-## 🎓 **GenAI System Integration**
+## 🎓 **ML Education System Integration**
 
-Align your coding agent tasks with GenAI Email & Report Drafting System best practices:
+Align your educational content tasks with Machine Learning in Practice 2026 best practices:
 
-### **For Prompt Engineering Development:**
+### **For Tutorial Development:**
 
-- Focus on structured prompt construction for Google Gemini
-- Demonstrate proper role definition and task description
-- Include tone and formatting control
-- Show proper error handling and validation
+- Focus on clear theory explanations before code
+- Demonstrate proper code structure and commenting
+- Include visualizations to enhance understanding
+- Show proper error handling and debugging techniques
 
-### **For Google Gemini Integration:**
+### **For ML Algorithm Instruction:**
 
-- Use proper SDK patterns (Python google-generativeai)
-- Implement retry logic and error handling
-- Include configuration management and API key handling
-- Demonstrate proper logging and observability
+- Use proper pedagogical progression (simple to complex)
+- Implement hands-on examples with real datasets
+- Include model evaluation and interpretation
+- Demonstrate proper ML workflow and best practices
 
-### **For Template Creation:**
+### **For Exercise Creation:**
 
-- Create reusable prompt templates for email/report generation
-- Document use cases and when to apply each template
-- Include evaluation criteria and testing approaches
-- Provide governance guidelines and review workflows
+- Create progressive difficulty levels
+- Document expected outcomes and learning objectives
+- Include hints for common challenges
+- Provide solutions with explanations
 
-This framework ensures consistent, high-quality results from GitHub Copilot coding agents while preventing common issues and maintaining enterprise-grade standards aligned with Google Gemini best practices and N-Tier architecture principles.
+This framework ensures consistent, high-quality educational content from GitHub Copilot coding agents while preventing common issues and maintaining educational standards aligned with ML best practices and progressive learning principles.
