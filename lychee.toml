@@ -24,7 +24,7 @@ exclude = [
   # GitHub issue links may rate-limit during CI
   "^https://github\\.com/.*/issues/.*",
   # Repo is private / may 404 without auth
-  "^https://github\\.com/SrivariHSSPL-2026(/.*)?$",
+  "^https://github\\.com/Swamy-s-Tech-Skills-Academy-2026(/.*)?$",
   # Sites that often return 403 to bots
   "^https://(www\\.)?udemy\\.com/.*",
   "^https://leetcode\\.com/.*",
