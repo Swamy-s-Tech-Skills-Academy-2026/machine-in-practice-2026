@@ -1,0 +1,36 @@
+# Primary Directives
+
+## Project Focus
+
+This is a **Machine Learning Educational Repository** that:
+- Provides structured learning path from Python basics to advanced ML/NLP
+- Includes hands-on Jupyter notebooks for each topic
+- Covers complete ML workflow: data cleaning, EDA, feature engineering, modeling
+- Offers real-world projects and assignments
+- Serves as a comprehensive resource for data science learners
+
+## Current State
+
+- ✅ Repository structure established
+- ✅ Learning modules organized (12 main modules)
+- ✅ Documentation framework in place
+- ✅ Quality assurance scripts implemented
+- ✅ ZERO copy policy enforced
+- 📝 Content development in progress
+
+## Documentation Accuracy
+
+- Documentation must accurately reflect the educational content
+- Learning paths must be clear and progressive
+- Code examples must be educational and well-explained
+- No misleading descriptions of ML concepts or techniques
+- All examples should be practical and relevant
+
+## Content Maintenance
+
+- Maintain educational focus and clarity
+- Ensure progressive difficulty (beginner → intermediate → advanced)
+- Keep code examples well-commented for learners
+- Connect concepts to real-world applications
+- Update documentation as content is added
+- Follow ZERO copy policy strictly

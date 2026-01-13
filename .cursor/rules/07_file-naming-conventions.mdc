@@ -1,0 +1,39 @@
+# File Naming Conventions
+
+## Python Files
+
+- Use lowercase with underscores: `data_preprocessing.py`, `model_training.py`
+- Keep names descriptive: `linear_regression.py`, `feature_engineering.py`
+- Follow existing patterns in codebase
+
+## Jupyter Notebooks
+
+- **Tutorial Notebooks**: Use numbered prefix: `01_python_basics.ipynb`, `02_numpy_arrays.ipynb`
+- **Project Notebooks**: Use descriptive names: `linear_regression_tutorial.ipynb`, `eda_housing_data.ipynb`
+- **Assignment Notebooks**: Prefix with assignment: `assignment_01_python.ipynb`
+- Keep names descriptive and educational
+
+## Dataset Files
+
+- Use descriptive names: `housing_prices.csv`, `customer_churn.csv`
+- Indicate processed data: `housing_prices_cleaned.csv`
+- Use clear prefixes: `raw_`, `processed_`, `final_`
+
+## Documentation Files
+
+- Use descriptive names with numbering: `01_repository-structure.md`
+- Number sequentially when order matters
+- Use hyphens for multi-word names
+
+## Configuration Files
+
+- `requirements.txt`: Python dependencies
+- `.gitignore`: Version control exclusions
+- `.python-version`: Python version specification
+- `.markdownlint.json`: Markdown linting rules
+
+## Module/Package Names
+
+- Use descriptive folder names: `01-python-foundations/`, `08-machine-learning/`
+- Include numbering for sequential learning modules
+- Use hyphens for readability

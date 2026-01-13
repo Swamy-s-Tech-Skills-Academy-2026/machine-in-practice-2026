@@ -1,0 +1,45 @@
+# Cross-Domain Integration Guidelines
+
+## Module Integration
+
+### Learning Path Integration
+- Python Foundations → NumPy/Pandas → Data Visualization → Statistics
+- Statistics → Data Cleaning → EDA → Feature Engineering
+- Feature Engineering → Machine Learning → NLP
+- Each module builds upon previous concepts
+
+### Library Integration
+- **NumPy**: Foundation for numerical computing, used throughout
+- **Pandas**: Data manipulation, essential for EDA and preprocessing
+- **Matplotlib/Seaborn**: Visualization across all analysis modules
+- **Scikit-learn**: Machine learning algorithms and evaluation
+- **NLTK/spaCy**: Natural language processing tasks
+
+### Data Flow Across Modules
+
+1. **Data Acquisition** (10-datasets/) → Raw data storage
+2. **Data Cleaning** (05-data-cleaning/) → Processed data
+3. **Exploratory Analysis** (06-exploratory-data-analysis/) → Insights
+4. **Feature Engineering** (07-feature-engineering/) → Model-ready features
+5. **Machine Learning** (08-machine-learning/) → Trained models
+6. **Projects** (12-projects/) → End-to-end applications
+
+## Cross-Module References
+
+### Prerequisites
+- Each module should reference prerequisite modules
+- Clear learning dependencies documented
+- Progressive complexity maintained
+
+### Example Connections
+- **Statistics → ML**: Statistical concepts applied in model evaluation
+- **EDA → Feature Engineering**: Insights from EDA inform feature creation
+- **Data Cleaning → ML**: Clean data requirements for modeling
+- **Python Foundations → All Modules**: Python skills used throughout
+
+## Assignment and Project Integration
+
+- Assignments (11-assignments/) reinforce module concepts
+- Projects (12-projects/) integrate multiple modules
+- Progressive difficulty from assignments to projects
+- Real-world scenarios connect theory to practice
